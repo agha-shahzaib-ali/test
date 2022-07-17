@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.text-big{
+    font-size: 31px;
+}
+.text-small{
+    font-size: 18px;
+}
+.text-center{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+.text-footer{
+    background: black;
+    color: white;
+    height: 8vh;
+    padding: 8px 0px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 8px 24px;
+    margin: 12px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn:hover{
+    background: black;
+}
+.btn-dark{
+    color: black;
+    border: 2px solid grey;
+    font-size: 20px;
+}
+.btn-dark:hover{
+    background: #000;
+    color: antiquewhite;
+    margin: 2px auto;
+}
+.btn-sm{
+    padding: 4px 14px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.form-input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin: 14px 0px;
+    padding: 5px 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 22px;
+    height: 1px;
+    background: white;
+    margin: 5px;
+}
